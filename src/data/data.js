@@ -1,18 +1,17 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
-
+import LinkedIn from '../assets/projects/LinkedIn.png'
+import Ecommerce from '../assets/projects/Ecommerce.png'
 export const data=[
     {
         id:1,
         name:"E-commerce store",
-        image:WorkIm,
+        image:Ecommerce,
         github:"https://github.com/Jaafarmh/crwn-clothing-v2-redux-toolkit",
         live:"https://ecommerce-store-final.netlify.app",
     },
     {
         id:2,
         name:"LinkedIn Clone",
-        image:RealEst,
+        image:LinkedIn,
         github:"https://github.com/Jaafarmh/LinkedIn/tree/master",
         live:"https://my-own-linkedin.netlify.app",
     },
