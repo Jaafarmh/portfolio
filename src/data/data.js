@@ -12,8 +12,8 @@ export const data=[
         id:2,
         name:"LinkedIn Clone",
         image:LinkedIn,
-        github:"https://github.com/Jaafarmh/LinkedIn/tree/master",
-        live:"https://my-own-linkedin.netlify.app",
+        github:"https://github.com/Jaafarmh/LinkedIn/tree/my-main",
+        live:"https://mylinkedin-clone1.netlify.app",
     },
     
 
