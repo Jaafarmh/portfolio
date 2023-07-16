@@ -8,7 +8,9 @@ import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Styledcomponents from '../assets/Styledcomponents.png';
-import Redux from '../assets/redux.png'
+import Redux from '../assets/redux.png';
+import Figma from '../assets/figma.png';
+import Typescript from '../assets/Typescript_logo_2020.svg.png'
 
 const Skills = () => {
   return (
@@ -56,6 +58,14 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Redux} alt="HTML icon" />
                   <p className='my-4'>Redux</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Typescript} alt="HTML icon" />
+                  <p className='my-4'>Typescript</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto h-20' src={Figma} alt="HTML icon" />
+                  <p className='my-4'>Figma</p>
               </div>
           </div>
       </div>
