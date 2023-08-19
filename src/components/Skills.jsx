@@ -12,6 +12,9 @@ import Redux from '../assets/redux.png';
 import Figma from '../assets/figma.png';
 import Typescript from '../assets/Typescript_logo_2020.svg.png';
 import Mysql from '../assets/MYSQL.png'
+import REST_API from '../assets/REST_API.webp'
+import WordPress from '../assets/WordPress.png'
+import GraphQl from '../assets/GraphQl.png'
 
 const Skills = () => {
   return (
@@ -71,6 +74,18 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto h-20' src={Mysql} alt="HTML icon" />
                   <p className='my-4'>MySQL</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto h-20' src={GraphQl} alt="HTML icon" />
+                  <p className='my-4'>GraphQl</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto h-20' src={WordPress} alt="HTML icon" />
+                  <p className='my-4'>WordPress</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto h-20' src={REST_API} alt="HTML icon" />
+                  <p className='my-4'>REST_API</p>
               </div>
           </div>
       </div>
